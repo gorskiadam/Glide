@@ -1,0 +1,1 @@
+import{n as e}from"./Icon-B6hk_J0C.js";var t=e();function n({label:e,value:n,options:r,onChange:i}){return(0,t.jsx)(`div`,{className:`seg`,role:`radiogroup`,"aria-label":e,children:r.map(e=>(0,t.jsx)(`button`,{type:`button`,role:`radio`,"aria-checked":e.value===n,"aria-label":e.ariaLabel,onClick:()=>i(e.value),children:e.label},String(e.value)))})}export{n as t};
